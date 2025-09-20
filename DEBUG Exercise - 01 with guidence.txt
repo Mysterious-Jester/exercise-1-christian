@@ -15,7 +15,8 @@ start
       num secondTest
       num average
       num PASSING = 60
-   Input "Enter first score or 0 to quit "
+   output "Enter first score or 0 to quit "
+   input firstTest
    while firstTest <> to 0
       output "Enter second score "
       input secondTest
@@ -26,7 +27,8 @@ start
       else
          output "Fail"
       endif
-      Input "Enter first score or 0 to quit "
+      output "Enter first score or 0 to quit "
+      input firstTest
    endwhile
 stop
 
@@ -71,3 +73,4 @@ You have successfully achieved the following milestones:
 - Thoroughly verifying the accuracy of calculations and solutions
 
 Well done on effectively strategizing, planning, and debugging the program. Your efforts have been commendable.
+
